@@ -1,0 +1,7 @@
+Number of Labels,Baseline (Platt),Baseline + Bitstrings (Platt),Baseline (S&C),Baseline + Bitstrings (S&C)
+100,53.67,78.88,52,83
+200,67.41,84.02,66.67,88.53
+400,84.33,88.69,76.06,93
+600,87.63,91.1,80,93
+800,90.6,92.07,82,94
+1000,92.59,92.94,85.65,95.21
