@@ -22,10 +22,14 @@ Input files:
 3. (Partially) labeled data for all sequences (sequences seperated by a space)
 
 	[word] [label]
-	[word] [label]
+
 	[word] [label]
 
 	[word] [label]
+
+
+	[word] [label]
+	
 	[word] [label]
 
 
