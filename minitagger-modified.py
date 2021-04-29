@@ -4,10 +4,7 @@ This module contains the code to train and use Minitagger.
 
 Code has been modified by MP on 4/14/2021 to utilize gaze features. Much of the code for
 word embeddings was repurposed for gaze features. An option to use both bitstrings and 
-gaze features together was also added. Comments throughout indicate where new code was 
-added. In order to run this file, use the base code provided at 
-https://github.com/karlstratos/minitagger and insert this file (use in place of 
-minitagger.py file) - MP
+gaze features together was also added. -MP
 
 """
 import argparse
@@ -520,9 +517,9 @@ class SequenceDataFeatureExtractor(object):
         elif self.feature_template == "combo":
             assert self.__word_bitstring is not None
             assert self.__word_gaze is not None
-            raw_features_bitstrings = get_bitstring_features(observation_sequence,position,self.__word_bitstring)
+            raw_features = get_bitstring_features(observation_sequence,position,self.__word_bitstring)
             raw_features_gaze = get_gaze_features(observation_sequence, position, self.__word_gaze)
-            raw_features = raw_features_bitstrings.update(raw_features_gaze)
+            raw_features.update(raw_features_gaze)
         else:
             raise Exception("Unsupported feature templat {0}".format(self.feature_template))
 
