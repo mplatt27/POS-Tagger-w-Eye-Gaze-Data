@@ -41,7 +41,7 @@ To train a model with partially (or fully) labeled datasets:
 `python minitagger-modified.py train_path/train.txt --model_path tmp/model_file --train --feature_template combo --bitstring_path path/bigstrings.txt --gaze_path path/gaze.txt`
 
 	
-To test hte model:
+To test the model:
 
 `python minitagger-modified.py train_path/train.txt --model_path tmp/model_file --prediction_path tmp/prediction_file`
 
