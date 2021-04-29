@@ -1,5 +1,4 @@
 # Semi-supervised PoS Tagger with Eye Gaze Data
-=============================
 
 This is a project completed as part of the course CS 6120 Natural Language Process at Northeastern Univesity. The goal is to explore improvements in semi-supervised tagging with eye gaze features. 
 
