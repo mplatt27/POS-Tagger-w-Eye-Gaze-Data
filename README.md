@@ -19,19 +19,7 @@ Input files:
 
 	[frequency] 	[word_type]		[feature_1 feature_2 ... feature_n]
 
-3. (Partially) labeled data for all sequences (sequences seperated by a space)
-
-	[word] [label]
-
-	[word] [label]
-
-	[word] [label]
-
-
-	[word] [label]
-	
-	[word] [label]
-
+3. (Partially) labeled data for all sequences (sequences seperated by a space). See minitagger-input folder. 
 
 ----------
 To obtain partially labeled datasets through active learning:
