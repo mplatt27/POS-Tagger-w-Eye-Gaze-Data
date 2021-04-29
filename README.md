@@ -6,6 +6,8 @@ The main code for the study comes from Stratos and Collins (2015) "MINITAGGER", 
 
 This study modifies the MINITAGGER code in order to accept eye gaze features, in addition to Brown cluster bitstrings. The word embedding features from Stratos and Collins (2015) are removed for this study. This study also adds a condition to run eye gaze and bitstring features together. 
 
+More details of this study can be read in the uploaded report. 
+
 ----------
 Input files:
 
